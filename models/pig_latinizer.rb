@@ -13,5 +13,3 @@ class PigLatinizer
     result.join(" ")
   end
 end
-
-quiet
