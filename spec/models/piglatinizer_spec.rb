@@ -8,7 +8,7 @@ describe 'class PigLatinizer' do
 
   it 'piglatinizes an individual word' do
     expect(words.piglatinize("pork")).to eq("orkpay")
-    expect(words.piglatinize("I")).to eq("Iay")
+    expect(words.piglatinize("I")).to eq("Iway")
     expect(words.piglatinize("hello")).to eq("ellohay")
     expect(words.piglatinize("please")).to eq("easeplay")
     expect(words.piglatinize("tomorrow")).to eq("omorrowtay")
@@ -20,7 +20,7 @@ describe 'class PigLatinizer' do
   end
 
   it 'has a method splits the sentence to piglatinize each word' do
-    expect(words.piglatinize("i love programming")).to eq("iay ovelay ogrammingpray")
+    expect(words.piglatinize("i love programming")).to eq("iway ovelay ogrammingpray")
   end
 
 end
