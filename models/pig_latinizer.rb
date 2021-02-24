@@ -1,7 +1,5 @@
 class PigLatinizer
 
-  attr_reader :sent
-
   def piglatinize(sent)
     result = sent.split(" ").map do |word|
       word = word.gsub("qu", " ")
