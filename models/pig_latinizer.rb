@@ -3,6 +3,7 @@ class PigLatinizer
   attr_reader :sent
 
   def initialize
+    
   end
 
   def piglatinize(sent)
