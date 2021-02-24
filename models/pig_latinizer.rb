@@ -12,10 +12,6 @@ class PigLatinizer
     end
     result.join(" ")
   end
-
-  def piglatinize(sent)
-    result = sent.split(" ").map do |word|
-  end
 end
 
 quiet
