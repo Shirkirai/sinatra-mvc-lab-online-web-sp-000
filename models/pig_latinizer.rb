@@ -8,6 +8,9 @@ class PigLatinizer
     end
     result.join(" ")
   end
+
+  def piglatinize(sent)
+  end
 end
 
 quiet
