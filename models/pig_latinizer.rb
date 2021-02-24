@@ -2,7 +2,7 @@ class PigLatinizer
 
   attr_reader :sent
 
-  def initialize(sent)
+  def initialize
     @sent= sent
   end
 
