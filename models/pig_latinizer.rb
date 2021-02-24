@@ -6,7 +6,7 @@ class PigLatinizer
     @sent= sent
   end
 
-  def translate
+  def piglatinize
     result = @sent.split(" ").map do |word|
       word = word.gsub("qu", " ")
       word.gsub!(/^([^aeiou]*)(.*)/,'\2\1ay')
